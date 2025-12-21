@@ -1,14 +1,24 @@
+<script src="https://app.wotnot.io/chat-widget/4uBibswr3jZS001608898145FGFnJqhF.js" defer></script>
 {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-
 body {
   background: radial-gradient(circle at top right, #2b0040, #000);
   color: #fff;
   overflow-x: hidden;
+}
+@media (max-width: 768px) {
+  .your-container {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+img {
+  max-width: 100%;
+  height: auto;
 }
 p1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
